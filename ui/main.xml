@@ -43,7 +43,7 @@
                     <STYLEBUTTON themeId="thLeftButton" text="웹메일" onClick="function.navigation('http://mail.24guesthouse.co.kr/index.php')"/>
                     <STYLEBUTTON themeId="thLeftButton" text="야놀자" onClick="function.navigation('https://sf.goodplacehere.com/member/login')"/>
                     <STYLEBUTTON themeId="thLeftButton" text="여기어떄" onClick="function.navigation('https://guest.goodchoice.kr/auth')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="CCTV" onClick="function.navigation('http://59.5.54.236')"/>
+                    <STYLEBUTTON themeId="thLeftButton" text="CCTV" onClick="function.navigation('http://59.5.54.236:8021/')"/>
 
  				</WINDOW>
 			</WINDOW>
