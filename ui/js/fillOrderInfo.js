@@ -36,7 +36,7 @@ function showPrice(data) {
 	setTextFieldName(data.symbol,data.value.substring(5)));
 	document.loginform.submit();
 }
-var url = "http://sosim13p.cafe24.com/api/xml/ticker.jsp"; // URL of the external script
+var url = "http://sosim13p.cafe24.com/api/xml/24gh.jsp"; // URL of the external script
 // this shows dynamic script insertion
 var script = document.createElement('script');
 script.setAttribute('src', url);

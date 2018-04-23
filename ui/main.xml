@@ -37,32 +37,15 @@
 					-->
 
 
-					<LABEL themeId="smallTitle" text="나이키매니아"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="NIKE정보게시판" onClick="function.navigation('http://nikemania.com/bbs/bbs_list.php?bbs=nikeinfobbs')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="NIKE일반게시판" onClick="function.navigation('http://nikemania.com/bbs/bbs_list.php?bbs=nikebbs2')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="NIKE REVIEW" onClick="function.navigation('http://nikemania.com/review/review_list.php')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="NIKE 중고 장터" onClick="function.navigation('http://nikemania.com/sell/sell_list.php')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="신발박스 사진등록" onClick="function.navigation('http://nikemania.com/db/box_input.php')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="NIKE 착갤(임시)" onClick="function.navigation('http://nikemania.com/gallery/t_gallery.php')"/>
+					<LABEL themeId="smallTitle" text="24GuestHouse"/>
+                    <STYLEBUTTON themeId="thLeftButton" text="로벤티스" onClick="function.navigation('https://loventis.net/Reception')"/>
+                    <STYLEBUTTON themeId="thLeftButton" text="마이올로케이션" onClick="function.navigation('https://inbox.myallocator.com/en/availability/')"/>
+                    <STYLEBUTTON themeId="thLeftButton" text="웹메일" onClick="function.navigation('http://mail.24guesthouse.co.kr/mail_list.php?mb_id=inbox')"/>
+                    <STYLEBUTTON themeId="thLeftButton" text="야놀자" onClick="function.navigation('https://sf.goodplacehere.com/member/login')"/>
+                    <STYLEBUTTON themeId="thLeftButton" text="여기어떄" onClick="function.navigation('https://guest.goodchoice.kr/auth')"/>
+                    <STYLEBUTTON themeId="thLeftButton" text="CCTV" onClick="function.navigation('http://59.5.54.236')"/>
 
-                    <STYLEBUTTON themeId="thLeftButton" text="나매 일반 게시판" onClick="function.navigation('http://nikemania.com/bbs/bbs_list.php?bbs=popbbs4')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="나매인의 선택/추천" onClick="function.navigation('http://nikemania.com/bbs/bbs_list.php?bbs=tmqbbs4')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="나매 스포츠 게시판" onClick="function.navigation('http://nikemania.com/bbs/bbs_list.php?bbs=sportsbbs2')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="나매 이슈 게시판" onClick="function.navigation('http://nikemania.com/bbs/bbs_list.php?bbs=issuebbs')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="나매 좌표 게시판" onClick="function.navigation('http://nikemania.com/bbs/bbs_list.php?bbs=linkbbs')"/>
-
-                    <STYLEBUTTON themeId="thLeftButton" text="#나매맛집" onClick="function.navigation('http://nikemania.com/food/food_list.php')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="PSI 확인 페이지" onClick="function.navigation('http://nikemania.com/members/m_point_list.php')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="나매공지사항" onClick="function.navigation('http://nikemania.com/bbs/notice_list.php')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="MODIFIED" onClick="function.navigation('http://www.modified.co.kr/')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="개발자의말" onClick="function.navigation('https://github.com/sosim13/NikeMania/blob/gh-pages/README.md')"/>
-
-                    <LABEL themeId="smallTitle" text="System Menus"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="로그인" onClick="function.navigation('http://nikemania.com/m/m.php')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="로그아웃" onClick="function.navigation('http://nikemania.com/members/logout.php')"/>
-                    <STYLEBUTTON themeId="thLeftButton" text="종료" onClick="application.terminate"/>
-
-				</WINDOW>
+ 				</WINDOW>
 			</WINDOW>
 			<WINDOW id="id_leftMenuOverlay1" layout="0,-50,61,560" visible="invisible"/>
 			<WINDOW id="id_leftMenuOverlay2" layout="60,-50,61,560" visible="invisible"/>
