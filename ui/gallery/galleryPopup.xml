@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Created by ApplusForm.com on 2013.8.6
+
+	Permission is granted to copy, distribute, modify under the terms of ApplusForm License.
+
+	Copyright (C) 2013 ApplusForm.com All rights reserved.
+-->
+<MOML version="1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui.xsd">
+    
+    <THEMES id="themeMenu" >
+		<THEME id="thLabel1"  fontSize="12" textAlign="center|vCenter" fontColor="#c1a77e" fontShadow="#333388" borderStyle="solid:1|#80a0a0a0" />
+	</THEMES>
+   
+
+	<UI>
+		<UILAYOUT portrait="320,390" landscape="320,390" theme="themeMenu" >
+			 <AGATEWEBVIEW id="webView" layout="0,30,320,390" src="http://sosim13p.cafe24.com/cloudinary/" _src="image.htm" supportZoom="false" controls="none" defaultImg="#ffffff" jsBridge="false">
+			 <!-- <AGATEWEBVIEW id="webView" layout="0,50,320,390" src="http://sosim13p.cafe24.com/img/index.jsp" _src="image.htm" supportZoom="true" controls="none" defaultImg="#01Ffffff" jsBridge="false"> -->
+                <LINKMAP>					
+                    <!-- 이미지 업로드 https://postimages.org-->
+                    <!-- <LINK url="http://sosim13p.cafe24.com/cloudinary/*" jsPlugin="../js/uploadImg.js" delay="500"/> -->
+                </LINKMAP>
+            </AGATEWEBVIEW>		 				
+			<STYLEBUTTON themeId="thLabel1" layout="120,340,80,30" text="닫기" onClick="container.close" style="round" defaultImg="#f0f0f0"/>
+        </UILAYOUT>
+    </UI>
+    
+    <FUNCTIONCALL cmd="function.coverflowChange(0)" /> 
+	<FUNCTIONCALL cmd="userVariable.galleryVisible='true'" /> 
+
+	<FUNCTIONLIST>
+		<FUNCTION id="coverflowChange(index)">
+			<FUNCTIONITEM cmd="userVariable.coverflowIndex = math.add(index,1)" />
+		</FUNCTION>	
+	</FUNCTIONLIST>
+
+</MOML>
