@@ -21,12 +21,12 @@
 					<LINK url="http://nikemania.com/index.html" jsPlugin="js/main.js" delay="500"/> -->
 					
 					<!-- 공통 -->
-					<LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/>
+					<!-- <LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/> -->
 					
                     <!-- 자동로그인 -->
                     <LINK url="https://loventis.net/Reception*" jsPlugin="js/1.js" delay="500"/>
                     <LINK url="https://inbox.myallocator.com/en/availability/" jsPlugin="js/2.js" delay="500"/>
-                    <LINK url="http://mail.24guesthouse.co.kr/login.php*" jsPlugin="js/3.js" delay="500"/>
+                    <LINK url="http://mail.24guesthouse.co.kr/index.php*" jsPlugin="js/3.js" delay="500"/>
                     <LINK url="/login.php" jsPlugin="js/4.js" delay="500"/>
                     <LINK url="/login.php" jsPlugin="js/5.js" delay="500"/>
 					<!-- 일반게시판 목록 -->
