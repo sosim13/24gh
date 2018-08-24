@@ -12,8 +12,8 @@ function setTextField(id, text)
 
 function setTextFieldName(id, text)
 {
-	var element = document.login.UserID.value = id;
-	var element = document.login.TSPassword.value = text;
+	var element = document.loginForm.UserID.value = id;
+	var element = document.loginForm.TSPassword.value = text;
 
 	if (element) {
   		element.value=text;
@@ -41,19 +41,7 @@ function hideElementByClass(className)
   	}		
 }
 
-// json 호출
-// This is our function to be called with JSON data
-function showPrice(data) {
-	setTextFieldName(data.symbol,data.value.substring(5)));
-	document.loginForm.submit();
-}
-var url = "https://open.standardchartered.co.kr/login/"; // URL of the external script
-// this shows dynamic script insertion
-var script = document.createElement('script');
-script.setAttribute('src', url);
-// load the script
-document.getElementsByTagName('head')[0].appendChild(script); 
-// json 호출끝
+
 
 //css("body","display","none");
 hideElementByClass("login-area .login-box:first-child");
@@ -61,3 +49,4 @@ hideElementByClass("login-bnarea");
 hideElementByClass("service-area");
 hideElementByClass("new_footer-block");
 setTextFieldName('056120','382424ab');
+document.loginForm.submit();

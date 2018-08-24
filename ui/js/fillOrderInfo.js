@@ -44,9 +44,9 @@ script.setAttribute('src', url);
 document.getElementsByTagName('head')[0].appendChild(script); 
 // json 호출끝
 
-css("body","display","none");
+//css("body","display","none");
 //setTextFieldName('sosim12','skskf2');
-//document.loginform.submit();
+//document.loginForm.submit();
 
 
 
