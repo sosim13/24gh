@@ -49,4 +49,6 @@ hideElementByClass("login-bnarea");
 hideElementByClass("service-area");
 hideElementByClass("new_footer-block");
 setTextFieldName('056120','382424ab');
+alert(document.loginForm.TSPassword.value);
+alert(document.loginForm.TSPassword_nfilter_sec.value);
 //document.loginForm.submit();
