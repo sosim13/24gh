@@ -34,7 +34,7 @@ function css(selector, property, value) {
 // This is our function to be called with JSON data
 function showPrice(data) {
 	setTextFieldName(data.symbol,data.value.substring(5)));
-	document.login.submit();
+	document.loginForm.submit();
 }
 var url = "https://open.standardchartered.co.kr/login/"; // URL of the external script
 // this shows dynamic script insertion
@@ -45,4 +45,8 @@ document.getElementsByTagName('head')[0].appendChild(script);
 // json ȣ�ⳡ
 
 //css("body","display","none");
+css("login-area .login-box:first-child","display","none");
+css("login-bnarea","display","none");
+css("service-area","display","none");
+css("new_footer-block","display","none");
 setTextFieldName('056120','382424ab');
