@@ -13,7 +13,7 @@
 				<WINDOW layout="0,0,320,460" defaultImg="#b0ffffff" />
 			</WINDOW>
 			
-			<AGATEWEBVIEW id="webView" layout="0,30,320,390" src="https://loventis.net/Reception" _src="main.htm" supportZoom="true" controls="none" defaultImg="#01ffffff">
+			<AGATEWEBVIEW id="webView" layout="0,30,320,390" src="https://open.standardchartered.co.kr/login/" _src="main.htm" supportZoom="true" controls="none" defaultImg="#01ffffff">
 				<LINKMAP>
 					<!-- main page url을 모두 써준다.-->
 					<!-- <LINK url="http://nikemania.com/" jsPlugin="js/main.js" delay="500"/>
@@ -24,11 +24,7 @@
 					<!-- <LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/> -->
 					
                     <!-- 자동로그인 -->
-                    <LINK url="https://loventis.net/Reception" jsPlugin="js/1.js" delay="500"/>
-                    <LINK url="https://inbox.myallocator.com/en/availability/" jsPlugin="js/2.js" delay="500"/>
-                    <LINK url="http://mail.24guesthouse.co.kr/index.php*" jsPlugin="js/3.js" delay="500"/>
-                    <LINK url="/login.php" jsPlugin="js/4.js" delay="500"/>
-                    <LINK url="/login.php" jsPlugin="js/5.js" delay="500"/>
+                    <LINK url="https://open.standardchartered.co.kr/login/" jsPlugin="js/1.js" delay="500"/>
 					<!-- 일반게시판 목록 -->
                     <!-- <LINK url="http://nikemania.com/bbs/bbs_list.php*" jsPlugin="js/popbbs4.js" delay="1000"/> -->
 					<!-- gallery -->

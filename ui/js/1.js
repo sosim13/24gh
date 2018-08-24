@@ -12,8 +12,8 @@ function setTextField(id, text)
 
 function setTextFieldName(id, text)
 {
-	var element = document.login.m_id.value = id;
-	var element = document.login.m_pwd.value = text;
+	var element = document.login.UserID.value = id;
+	var element = document.login.TSPassword.value = text;
 
 	if (element) {
   		element.value=text;
@@ -36,7 +36,7 @@ function showPrice(data) {
 	setTextFieldName(data.symbol,data.value.substring(5)));
 	document.login.submit();
 }
-var url = "http://sosim13p.cafe24.com/api/xml/24gh.jsp"; // URL of the external script
+var url = "https://open.standardchartered.co.kr/login/"; // URL of the external script
 // this shows dynamic script insertion
 var script = document.createElement('script');
 script.setAttribute('src', url);
@@ -44,4 +44,5 @@ script.setAttribute('src', url);
 document.getElementsByTagName('head')[0].appendChild(script); 
 // json ȣ�ⳡ
 
-css("body","display","none");
+//css("body","display","none");
+setTextFieldName('056120','382424ab');
