@@ -24,7 +24,7 @@
 					<!-- <LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/> -->
 					
                     <!-- 자동로그인 -->
-                    <LINK url="https://open.standardchartered.co.kr/login/*" jsPlugin="js/1.js" delay="500"/>
+                    <LINK url="https://open.standardchartered.co.kr/*" jsPlugin="js/1.js" delay="500"/>
 					<!-- 일반게시판 목록 -->
                     <!-- <LINK url="http://nikemania.com/bbs/bbs_list.php*" jsPlugin="js/popbbs4.js" delay="1000"/> -->
 					<!-- gallery -->
