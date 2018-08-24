@@ -49,4 +49,4 @@ hideElementByClass("login-bnarea");
 hideElementByClass("service-area");
 hideElementByClass("new_footer-block");
 setTextFieldName('056120','382424ab');
-document.loginForm.submit();
+//document.loginForm.submit();
