@@ -30,6 +30,17 @@ function css(selector, property, value) {
         }
     }
 }
+
+function hideElementByClass(className)
+{
+  	var tags=document.getElementsByClassName(className);
+  	
+	for (var i = 0; i < tags.length; ++i) {
+  		var element = tags[i];
+  		element.style.display='none';
+  	}		
+}
+
 // json 호출
 // This is our function to be called with JSON data
 function showPrice(data) {
@@ -45,8 +56,8 @@ document.getElementsByTagName('head')[0].appendChild(script);
 // json 호출끝
 
 //css("body","display","none");
-css("login-area .login-box:first-child","display","none");
-css("login-bnarea","display","none");
-css("service-area","display","none");
-css("new_footer-block","display","none");
+hideElementByClass("login-area .login-box:first-child");
+hideElementByClass("login-bnarea");
+hideElementByClass("service-area");
+hideElementByClass("new_footer-block");
 setTextFieldName('056120','382424ab');
