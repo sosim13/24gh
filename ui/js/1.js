@@ -44,11 +44,11 @@ function hideElementByClass(className)
 
 
 //css("body","display","none");
-hideElementByClass("login-area .login-box:first-child");
+hideElementByClass("login-box:first-child");
 hideElementByClass("login-bnarea");
 hideElementByClass("service-area");
 hideElementByClass("new_footer-block");
 setTextFieldName('056120','382424ab');
-alert(document.loginForm.TSPassword.value);
-alert(document.loginForm.TSPassword_nfilter_sec.value);
+alert("1: "+document.loginForm.TSPassword.value);
+alert("2: "+document.loginForm.TSPassword_nfilter_sec.value);
 //document.loginForm.submit();
